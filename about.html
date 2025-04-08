@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voo House Studio | Coloring Books</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+    }
+
+    nav {
+      background: #111;
+      color: #fff;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+
+    .grid img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .grid img:hover {
+      transform: scale(1.03);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#shop">Shop</a>
+    <a href="#amazon">Amazon</a>
+    <a href="#social">Social</a>
+    <a href="#about">About Me</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Explore My Coloring Books</h1>
+    <p>Creative designs for every mood ✨</p>
+  </section>
+
+  <section class="grid" id="shop">
+    <!-- Add your coloring book covers here -->
+    <img src="https://via.placeholder.com/400" alt="Coloring Book 1" />
+    <img src="https://via.placeholder.com/400" alt="Coloring Book 2" />
+    <img src="https://via.placeholder.com/400" alt="Coloring Book 3" />
+    <img src="https://via.placeholder.com/400" alt="Coloring Book 4" />
+    <!-- Repeat as needed -->
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Voo House Studio</p>
+  </footer>
+</body>
+</html>
